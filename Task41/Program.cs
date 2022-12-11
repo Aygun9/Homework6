@@ -7,15 +7,15 @@ void QofPos(int[] arr, out int N)   // QofPos is Quantity of POsitive Numbers
     {
         if (arr[i] > 0)
         {
-            N ++;
+            N++;
         }
     }
-    
+
 }
 
 Console.WriteLine("Insert numbers");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-QofPos(arr , out int N );
-Console.WriteLine($"Quantity of positive numbers is "+ N);
+QofPos(arr, out int N);
+Console.WriteLine($"Quantity of positive numbers is " + N);
 
 
